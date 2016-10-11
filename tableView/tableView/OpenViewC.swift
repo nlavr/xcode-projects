@@ -9,14 +9,14 @@
 import UIKit
 
 class OpenViewC: UIViewController {
-
-    @IBOutlet weak var textLabel: UILabel!
     
     var student = "Yest"
     
+    @IBOutlet weak var studentName: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        studentName.text = student;
     }
 
 }
