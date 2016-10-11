@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7BFDA3E1DAD5F6D00A460B0 /* OpenViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BFDA3D1DAD5F6D00A460B0 /* OpenViewC.swift */; };
 		D7E198F31DAD529200DC0447 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E198F21DAD529200DC0447 /* AppDelegate.swift */; };
 		D7E198F51DAD529200DC0447 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E198F41DAD529200DC0447 /* ViewController.swift */; };
 		D7E198F81DAD529200DC0447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E198F61DAD529200DC0447 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D7BFDA3D1DAD5F6D00A460B0 /* OpenViewC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenViewC.swift; sourceTree = "<group>"; };
 		D7E198EF1DAD529200DC0447 /* tableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E198F21DAD529200DC0447 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7E198F41DAD529200DC0447 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				D7E198F21DAD529200DC0447 /* AppDelegate.swift */,
 				D7E198F41DAD529200DC0447 /* ViewController.swift */,
+				D7BFDA3D1DAD5F6D00A460B0 /* OpenViewC.swift */,
 				D7E198F61DAD529200DC0447 /* Main.storyboard */,
 				D7E198F91DAD529200DC0447 /* Assets.xcassets */,
 				D7E198FB1DAD529200DC0447 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				D7E198F51DAD529200DC0447 /* ViewController.swift in Sources */,
 				D7E198F31DAD529200DC0447 /* AppDelegate.swift in Sources */,
+				D7BFDA3E1DAD5F6D00A460B0 /* OpenViewC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +516,7 @@
 				D7E199191DAD529200DC0447 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7E1991A1DAD529200DC0447 /* Build configuration list for PBXNativeTarget "tableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				D7E1991C1DAD529200DC0447 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7E1991D1DAD529200DC0447 /* Build configuration list for PBXNativeTarget "tableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				D7E1991F1DAD529200DC0447 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
