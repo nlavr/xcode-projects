@@ -8,7 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate , UITableViewDataSource{
+
+class Student {
+    var name: String = "Student name"
+    var age: Int = 20
+    init(name: String, age: Int) {
+        self.name = name
+        self.age = age
+    }
+}
+
+class ListC: UIViewController, UITableViewDelegate , UITableViewDataSource{
 
     @IBOutlet weak var tableView: UITableView!
     var students = ["Mārcis", "Vairis", "Vadims", "Silvestrs"]
@@ -18,6 +28,7 @@ class ViewController: UIViewController, UITableViewDelegate , UITableViewDataSou
         
         tableView.dataSource = self
         tableView.delegate = self
+        
     }
     
     
@@ -44,6 +55,16 @@ class ViewController: UIViewController, UITableViewDelegate , UITableViewDataSou
         let guest = segue.destination as! OpenViewC
         
         guest.student = sender as! String
-}
+    }
+    
+    //delete view
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            
+            self.students.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+            
+        }
+    }
 }
 

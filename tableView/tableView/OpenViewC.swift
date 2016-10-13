@@ -9,8 +9,7 @@
 import UIKit
 
 class OpenViewC: UIViewController {
-    
-    var student = "Yest"
+    var student = ""
     
     @IBOutlet weak var studentName: UILabel!
     
