@@ -12,6 +12,7 @@
 		D7830F181DB5549B00C16FB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7830F161DB5549B00C16FB5 /* Main.storyboard */; };
 		D7830F1A1DB5549B00C16FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7830F191DB5549B00C16FB5 /* Assets.xcassets */; };
 		D7830F1D1DB5549B00C16FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7830F1B1DB5549B00C16FB5 /* LaunchScreen.storyboard */; };
+		D7830F251DB5617000C16FB5 /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = D7830F241DB5617000C16FB5 /* earth.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D7830F191DB5549B00C16FB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7830F1C1DB5549B00C16FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7830F1E1DB5549B00C16FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7830F241DB5617000C16FB5 /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				D7830F121DB5549B00C16FB5 /* AppDelegate.swift */,
 				D7830F141DB5549B00C16FB5 /* ViewController.swift */,
 				D7830F161DB5549B00C16FB5 /* Main.storyboard */,
+				D7830F241DB5617000C16FB5 /* earth.png */,
 				D7830F191DB5549B00C16FB5 /* Assets.xcassets */,
 				D7830F1B1DB5549B00C16FB5 /* LaunchScreen.storyboard */,
 				D7830F1E1DB5549B00C16FB5 /* Info.plist */,
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7830F251DB5617000C16FB5 /* earth.png in Resources */,
 				D7830F1D1DB5549B00C16FB5 /* LaunchScreen.storyboard in Resources */,
 				D7830F1A1DB5549B00C16FB5 /* Assets.xcassets in Resources */,
 				D7830F181DB5549B00C16FB5 /* Main.storyboard in Resources */,
