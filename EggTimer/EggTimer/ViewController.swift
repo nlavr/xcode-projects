@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     var timer = Timer();
-    var time = 210;
+    var time = 600;
     
     func decreaseTimer() {
         if time > 0 {
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func refresh(_ sender: AnyObject) {
-        time = 210
+        time = 600
         timerLabel.text = String(time)
     }
     

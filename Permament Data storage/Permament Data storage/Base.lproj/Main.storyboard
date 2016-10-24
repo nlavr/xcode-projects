@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Permament_Data_storage" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your phone nummber" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbq-3J-FLn">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Pe-Et-bh2">
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsM-mA-Wog">
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="save:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gUI-WJ-7U4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cbq-3J-FLn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G7J-Gp-Y3R"/>
+                            <constraint firstItem="2Pe-Et-bh2" firstAttribute="top" secondItem="cbq-3J-FLn" secondAttribute="bottom" constant="8" id="KQM-Xd-JDe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2Pe-Et-bh2" secondAttribute="trailing" constant="67" id="LTb-mm-oJd"/>
+                            <constraint firstItem="2Pe-Et-bh2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="67" id="LtX-4A-JQO"/>
+                            <constraint firstItem="cbq-3J-FLn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="67" id="PJn-bD-1mA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cbq-3J-FLn" secondAttribute="trailing" constant="67" id="Ub4-Lr-BFI"/>
+                            <constraint firstItem="cbq-3J-FLn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Y8y-OV-nuv"/>
+                            <constraint firstItem="JsM-mA-Wog" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eLn-jv-bcx"/>
+                            <constraint firstItem="2Pe-Et-bh2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mq6-gZ-gAk"/>
+                            <constraint firstItem="JsM-mA-Wog" firstAttribute="top" secondItem="2Pe-Et-bh2" secondAttribute="bottom" constant="8" id="rGe-eS-EZt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="nummberField" destination="2Pe-Et-bh2" id="MHM-Cj-V2U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+</document>
