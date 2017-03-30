@@ -51,10 +51,13 @@ class ViewController: UIViewController, MKMapViewDelegate {
         //add annotation/marker on map
         map.addAnnotation(annotation)
         
+        // "Ja ilgi spiežās un rue, tad izsaucās šī funkcija
         let uilpgr = UILongPressGestureRecognizer(target: self, action: #selector(ViewController.longpress(gestureRecognizer:)))
         
+        //laiks cik ilgi jātur
         uilpgr.minimumPressDuration = 2
         
+        //uzliekam updeitu uz mapes
         map.addGestureRecognizer(uilpgr)
         
     }
